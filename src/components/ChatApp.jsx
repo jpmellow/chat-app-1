@@ -1,10 +1,10 @@
-import { MessageInput } from "@services/MessageInput";
-import { MessagesList } from "@components/MessagesList";
+import { MessageInput } from "./MessageInput";
+import { MessagesList } from "./MessagesList";
 
 export function ChatApp() {
     return (
         <>
-            <MessageList />
+            <MessagesList />
             <MessageInput />
         </>
     );
